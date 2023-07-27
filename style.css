@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  border: 1px solid black;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  border: 1px solid blue;
+}

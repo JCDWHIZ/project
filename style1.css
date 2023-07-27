@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  width: 100%;
+  padding: 0 30px;
+  background-color: blue;
+}
+.compname {
+  display: flex;
+  justify-content: start;
+}
+.compname h1 {
+  font-size: 40px;
+  color: rgba(167, 163, 163, 0.575);
+}
+.headertext {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.headertext h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.headertext h2:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.bgimg {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.3)),
+    url(pexels-aleksandar-pasaric-618079.jpg);
+  background-position: center;
+  height: 440px;
+  background-size: cover;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: white;
+}
+.bgtext {
+  padding: 50px 50px;
+  font-size: 30px;
+}
+.bgtext p {
+  font-size: 20px;
+}
+.bgtext h1 {
+  text-transform: capitalize;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px 0 30px;
+  width: 90%;
+}
+.house1 {
+  display: flex;
+  width: 25%;
+  height: 300px;
+  /* border: 1px red solid; */
+}
+.house2 {
+  display: flex;
+  width: 25%;
+  height: 300px;
+  /* border: 1px red solid; */
+}
+.house3 {
+  display: flex;
+  width: 25%;
+  height: 300px;
+  /* border: 1px red solid; */
+}
+.stay {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: blue;
+}
+.stay h1 {
+  border: 8px red solid;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.closing {
+  margin-top: 20px;
+  height: 56vh;
+  color: white;
+  background-color: blue;
+  /* display: flex; */
+}
+.closing h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.closing h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
